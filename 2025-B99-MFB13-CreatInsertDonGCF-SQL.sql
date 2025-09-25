@@ -6,7 +6,7 @@
 -- ==== MFB =======================================================================================================================
 -- Numéro du Binôme (= GroupeDeTravail) --->>>> : B13
 -- NOM1 PRENOM1                         --->>>> : LENO CELESTINE
--- NOM2 PRENOM2                         --->>>> : np2
+-- NOM2 PRENOM2                         --->>>> : NKOUNGHAWE TOMEYUM Rosalie Corine 
 
 -- ====>>> Vos fichiers sql devront s'appeler : Bxy-NomDuFichier.sql            (NomDuFichier = MetaDon)
 -- ==== MFB =======================================================================================================================
@@ -358,46 +358,46 @@ SELECT * FROM user_col_comments WHERE table_name = 'CLIENTS';  --Tous les noms d
 -- ==== MFB =======================================================================================================================
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C001', 'Madame', 'CLEM@ENT', 'EVE', 1, '18', 'BOULEVARD FOCH', '91000', 'EPINAY-SUR-ORGE', 'FRANCE','eve.clement@gmail.com', '+33777889911', '17-06-1951', '12-12-2012', '', '', 'F');
+VALUES ('C001', 'Madame', 'CLEM@ENT', 'EVE', 1, '18', 'BOULEVARD FOCH', '91000', 'EPINAY-SUR-ORGE', 'FRANCE','eve.clement@gmail.com', '+33777889911', '17-JUN-1951', '12-DEC-2012', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C002', 'Madame', 'LESEUL', 'M@RIE', 1, '17', 'AVENUE D ITALIE', '75013', 'PARIS', 'FRANCE','marieleseul@yahoo.fr', '0617586565', '05-08-1983', '05-08-1983', '', '', 'F');
+VALUES ('C002', 'Madame', 'LESEUL', 'M@RIE', 1, '17', 'AVENUE D ITALIE', '75013', 'PARIS', 'FRANCE','marieleseul@yahoo.fr', '0617586565', '05-AUG-1983', '05-AUG-1983', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C003', 'Madame', 'UNIQUE', 'Inès', 2, '77', 'RUE DE LA LIBERTE', '13001', 'MARCHEILLLE', 'FRANCE','munique@gmail.com', '+33717889922', '22-11-1969', '12-12-2012', '', '', 'F');
+VALUES ('C003', 'Madame', 'UNIQUE', 'Inès', 2, '77', 'RUE DE LA LIBERTE', '13001', 'MARCHEILLLE', 'FRANCE','munique@gmail.com', '+33717889922', '22-NOV-1969', '12-DEC-2012', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
 VALUES ('C004', 'Madame', 'CLEMENCE', 'EVELYNE', 4, '8 BIS', 'FOCH', '93800', 'EPINAY-SUR-SEINE', 'FRANCE','clemence evelyne@gmail.com', '+33777889933', '', '', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C005', 'Madam', 'FORT', 'anne marie', 3, '55', 'RUE DU JAPON', '94310', 'ORLY-VILLE', 'FRANCE','jfort\@hotmail.fr', '+33777889944', '11-11-2000', '', '', '', 'F');
+VALUES ('C005', 'Madam', 'FORT', 'anne marie', 3, '55', 'RUE DU JAPON', '94310', 'ORLY-VILLE', 'FRANCE','jfort\@hotmail.fr', '+33777889944', '11-DEC-2000', '', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C006', 'Mademoisele', 'LE BON', 'Clémence', 1, '18', 'BOULEVARD FOCH', '93800', 'EPINAY-SUR-SEINE', 'FRANCE','clemence.le bon@cfo.fr', '0033777889955', '16-10-1996', '18-10-2018', '', '', 'F');
+VALUES ('C006', 'Mademoisele', 'LE BON', 'Clémence', 1, '18', 'BOULEVARD FOCH', '93800', 'EPINAY-SUR-SEINE', 'FRANCE','clemence.le bon@cfo.fr', '0033777889955', '16-OCT-1996', '18-OCT-2018', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C007', 'Mademoiselle', 'TRAIFOR', 'Alice', 2, '6', '    DE LA ROSIERE', '75015', 'PARIS', 'FRANCE','alice.traifor@yahoo.fr', '+33777889966', '23-02-1998', '', '', '', 'F');
+VALUES ('C007', 'Mademoiselle', 'TRAIFOR', 'Alice', 2, '6', '    DE LA ROSIERE', '75015', 'PARIS', 'FRANCE','alice.traifor@yahoo.fr', '+33777889966', '23-FEV-1998', '', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C008', 'Monsieur', 'VIVANT', 'JEAN-BAPTISTE', 1, '13', 'RUE DE LA PAIX', '93800', 'EPINAY-SUR-SEINE', 'FRANCE','jeanbaptiste@', '0607', '17-09-1958', '17-09-2000', '', '', 'F');
+VALUES ('C008', 'Monsieur', 'VIVANT', 'JEAN-BAPTISTE', 1, '13', 'RUE DE LA PAIX', '93800', 'EPINAY-SUR-SEINE', 'FRANCE','jeanbaptiste@', '0607', '17-SEP-1958', '17-SEP-2000', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C009', 'Monsieur', 'CLEMENCE', 'Alexandre', 1, '5', 'Rue De Belleville', '75019', 'PARIS', NULL,'alexandre.clemence@up13.fr', '+33149404071', '19-09-1999', '20-10-2020', '', '', 'F');
+VALUES ('C009', 'Monsieur', 'CLEMENCE', 'Alexandre', 1, '5', 'Rue De Belleville', '75019', 'PARIS', NULL,'alexandre.clemence@up13.fr', '+33149404071', '19-SEP-1999', '20-OCT-2020', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C010', 'Monsieur', 'TRAIFOR', 'Alexandre', 1, '17', 'AVENUE FOCH', '75016', 'PARIS', 'FRA','alexandre.traifor@up13.fr', '06070809', '17-07-1967', '17-09-2000', '', '', 'F');
+VALUES ('C010', 'Monsieur', 'TRAIFOR', 'Alexandre', 1, '17', 'AVENUE FOCH', '75016', 'PARIS', 'FRA','alexandre.traifor@up13.fr', '06070809', '17-JUL-1967', '17-JUL-2000', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C011', 'Monsiieur', 'PREMIER', 'JOS//EPH', 2, '77//', 'RUE// DE LA LIBERTE', '13001', 'MARCHEILLE', 'FRANCE','josef@premier', '+33777889977', '01-01-2000', '20-10-2020', '', '', 'F');
+VALUES ('C011', 'Monsiieur', 'PREMIER', 'JOS//EPH', 2, '77//', 'RUE// DE LA LIBERTE', '13001', 'MARCHEILLE', 'FRANCE','josef@premier', '+33777889977', '01-JAN-2000', '20-OCT-2020', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C012', 'Monsieur', 'CLEMENT', 'Adam', 2, '13', 'AVENUE JEAN BAPTISTE CLEMENT', '9430', 'VILLETANEUSE', 'FRANCE','adam.clement@gmail.com', '+33149404072', '19-06-2001', '', '', '', 'F');
+VALUES ('C012', 'Monsieur', 'CLEMENT', 'Adam', 2, '13', 'AVENUE JEAN BAPTISTE CLEMENT', '9430', 'VILLETANEUSE', 'FRANCE','adam.clement@gmail.com', '+33149404072', '19-JUN-2001', '', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C013', 'Monsieur', 'FORT', 'Gabriel', 5, '1', 'AVENUE DE CARTAGE', '99000', 'TUNIS', 'TUNISIE','gabriel.fort@yahoo.fr', '+21624801777', '05-05-1985', '17-09-2000', '', '', 'F');
+VALUES ('C013', 'Monsieur', 'FORT', 'Gabriel', 5, '1', 'AVENUE DE CARTAGE', '99000', 'TUNIS', 'TUNISIE','gabriel.fort@yahoo.fr', '+21624801777', '05-MAY-1985', '17-SEP-2000', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C014', 'Monsieur', 'ADAM', 'ADAMO', 5, '1', 'AVENUE DE ROME', '99001', 'ROME', 'ITALIE','adamo.adamé@gmail com', '', '12-12-2000', '20-10-2020', '', '', 'F');
+VALUES ('C014', 'Monsieur', 'ADAM', 'ADAMO', 5, '1', 'AVENUE DE ROME', '99001', 'ROME', 'ITALIE','adamo.adamé@gmail com', '', '12-DEC-2000', '20-OCT-2020', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
 VALUES ('C015', 'Monsieur', 'Labsent', 'pala', 7, '1', 'rue des absents', '000', 'BAGDAD', 'IRAQ','pala-labsent@paici', '', '', '', '', '', 'F');
@@ -406,27 +406,29 @@ INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CP
 VALUES ('C016', 'Madame', 'obsolete', 'kadym', 7, '1', 'rue des anciens', '000', 'CARTHAGE', 'IFRIQIA','inexistant', 'inexistant', '', '', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C017', 'Madame', 'RAHYM', 'Karym', 1, '1', 'RUE DES GENTILS', '1000', 'CARTHAGE', 'TUNISIE','karym.rahym@gmail.com', '+21624808444', '01-01-1990', '05-01-2021', '', '', 'F');
+VALUES ('C017', 'Madame', 'RAHYM', 'Karym', 1, '1', 'RUE DES GENTILS', '1000', 'CARTHAGE', 'TUNISIE','karym.rahym@gmail.com', '+21624808444', '01-JAN-1990', '05-JAN-2021', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C018', 'Madame', 'GENIE', 'ADAM', 6, '8', 'BOULEVARD FOCH', '93800', 'EPINAY SUR SEINE', 'FRANCE','adam.génie@gmail.com', '+33777889911', '01-01-1990', '11-11-2011', '', '', 'F');
+VALUES ('C018', 'Madame', 'GENIE', 'ADAM', 6, '8', 'BOULEVARD FOCH', '93800', 'EPINAY SUR SEINE', 'FRANCE','adam.génie@gmail.com', '+33777889911', '01-JAN-1990', '11-NOV-2011', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C019', 'Madame', 'GENIE', 'GENIALE', 3, '16', 'AVENUE FOCH', '75016', 'PARIS', 'FRANCE','genialegenie@gmail.com', '+33777889900', '17-09-1988', '11-11-2011', '', '', 'F');
+VALUES ('C019', 'Madame', 'GENIE', 'GENIALE', 3, '16', 'AVENUE FOCH', '75016', 'PARIS', 'FRANCE','genialegenie@gmail.com', '+33777889900', '17-SEP-1988', '11-NOV-2011', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C020', 'Madame', 'GENIe', 'GENIAL', 3, '16', 'AVENUE FOCH', '75016', 'PARIS', 'FRENCE','genialegenie@gmail.com', '0777889900', '17-09-1988', '11-11-2011', '', '', 'F');
+VALUES ('C020', 'Madame', 'GENIe', 'GENIAL', 3, '16', 'AVENUE FOCH', '75016', 'PARIS', 'FRENCE','genialegenie@gmail.com', '0777889900', '17-SEP-1988', '11-NOV-2011', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C021', 'Madame', 'LAPARISIENNE', 'Belle', 3, '26', 'AVENUE FOCH', '75016', 'PARIS', '','belle.laparisienne@gmail.com', '+33777889977', '17-09-1988', '11-11-2011', '', '', 'F');
+VALUES ('C021', 'Madame', 'LAPARISIENNE', 'Belle', 3, '26', 'AVENUE FOCH', '75016', 'PARIS', '','belle.laparisienne@gmail.com', '+33777889977', '17-SEP-1988', '11-NOV-2011', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C022', 'Mademoiselle', 'AFRICAINE', 'Belle', 9, '26', 'AVENUE FOCH', '75016', 'PARIS', '','belle.africaine@hotmail.com', '+33777889911', '17-09-1988', '11-11-2011', '', '', 'F');
+VALUES ('C022', 'Mademoiselle', 'AFRICAINE', 'Belle', 9, '26', 'AVENUE FOCH', '75016', 'PARIS', '','belle.africaine@hotmail.com', '+33777889911', '17-SEP-1988', '11-NOV-2011', '', '', 'F');
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
-VALUES ('C023', 'Mademoiselle', 'AFRICAINE', 'Belle', 9, '26', 'AVENUE FOCH', '75016', 'DAKAR', '','africaineb@gmail.com', '+33777889922', '17-09-1988', '11-11-2011', '', '', 'F');
+VALUES ('C023', 'Mademoiselle', 'AFRICAINE', 'Belle', 9, '26', 'AVENUE FOCH', '75016', 'DAKAR', '','africaineb@gmail.com', '+33777889922', '17-SEP-1988', '11-NOV-2011', '', '', 'F');
 
 COMMIT;
+
+SELECT * FROM CLIENTS;
 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
 VALUES ('C118', 'Madame', 'GENIE', 'Adam', 3, '8', 'BOULEVARD FOCH', '93800', '     EPINAY    SUR     SEINE', 'FRANCE','adam.génie@gmail.com', '+33777889911', '17-09-1988', '', '', '', 'F');
@@ -496,10 +498,12 @@ VALUES ('C554', 'Monsieur', 'ALIBABA', 'Mystere', 1, '55', 'Rue De Belleville', 
 INSERT INTO CLIENTS (CODCLI, CIVCLI, NOMCLI, PRENCLI, CATCLI, ADNCLI, ADRCLI, CPCLI, VILCLI, PAYSCLI, MAILCLI, TELCLI, DATNAISCLI, DPREMCONTACTCLI, OBSCLI, REMCLI, GENRECLI)
 VALUES ('C555', 'Madame', 'SMART', 'Data', 2, '55', 'RUE DE BELLEVILLE', '75019', 'PARIS', 'FRANCE','smartdata@gmail.com', '+33755555555', '', '', '', '', 'F');
 
+
 COMMIT;
 -- ==== MFB =======================================================================================================================
 ----- >> Insertion dans la Table : COMMANDES
 -- ==== MFB =======================================================================================================================
+
 
 ALTER SESSION SET NLS_DATE_FORMAT = 'DAY DD-MONTH-YYYY' ;
 
